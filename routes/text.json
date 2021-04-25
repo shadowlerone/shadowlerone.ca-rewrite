@@ -1,0 +1,14 @@
+{
+	"text":{
+		"bio":{
+			"title":"shadowlerone",
+			"text":"Hey there. I'm shadowlerone (yes you can call me shadow or lerone). I'm currently a student of music and science in college and I want to pursue composition in university.",
+			"img":"/images/pfp"
+		},
+		"projects":{
+			"title":"what i do",
+			"text":"What I do is simple. I write and perform music. Jazz, classical, funk, I pull inspiration from everything around me. I'm currently working on the soundtrack for a game of mine as well as covering popular songs and video game tunes.",
+			"img":"/images/sheetmusic.png"
+		}
+	}
+}

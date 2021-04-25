@@ -1,0 +1,37 @@
+{
+	"albums": [
+		{
+			"title": "Grooves And Wobbly Air",
+			"desc": "Hey there! I'm an aspiring composer looking to work in the video game industry. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet quis nulla eget rutrum. Pellentesque leo augue, accumsan nec aliquet id, euismod et arcu. Vivamus a erat ac felis lacinia fringilla et eu mauris. Vivamus id turpis et lorem laoreet ornare non eu lorem. Maecenas sed ipsum vel risus pretium maximus eu eget tellus. Duis varius, neque ut blandit blandit, ante eros bibendum urna, non consequat ligula ex quis libero. Ut quis ullamcorper urna. Etiam pulvinar dignissim consequat. Duis in dictum ligula. Donec nunc est, blandit facilisis vestibulum at, fringilla vitae nisl. Maecenas nec varius nisi. Aenean volutpat sapien maximus, posuere velit at, euismod sapien. Suspendisse tempor eleifend sapien at cursus.",
+			"tracks": [
+				{
+					"title": "Prepare Yourself",
+					"desc": "Prepare Yourself is te start of the album. It's ",
+					"preview": true,
+					"file":"/audio/Prepare Yourself.mp3"
+				},
+				{
+					"title": "A New Groove",
+					"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet quis nulla eget rutrum. Pellentesque leo augue, accumsan nec aliquet id, euismod et arcu. Vivamus a erat ac felis lacinia fringilla et eu mauris. Vivamus id turpis et lorem laoreet ornare non eu lorem. Maecenas sed ipsum vel risus pretium maximus eu eget tellus. Duis varius, neque ut blandit blandit, ante eros bibendum urna, non consequat ligula ex quis libero. Ut quis ullamcorper urna. Etiam pulvinar dignissim consequat. Duis in dictum ligula. Donec nunc est, blandit facilisis vestibulum at, fringilla vitae nisl. Maecenas nec varius nisi. Aenean volutpat sapien maximus, posuere velit at, euismod sapien. Suspendisse tempor eleifend sapien at cursus.",
+					"preview": false
+				}
+			],
+			"art": "/images/grooves_and_wobbly_air.png",
+			"short_desc": "A Collection of Grooves and Electronic Jazz"
+		},
+		{
+			"title": "Feel Good Inc - Single",
+			"desc": "Hey there! I'm an aspiring composer looking to work in the video game industry. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet quis nulla eget rutrum. Pellentesque leo augue, accumsan nec aliquet id, euismod et arcu. Vivamus a erat ac felis lacinia fringilla et eu mauris. Vivamus id turpis et lorem laoreet ornare non eu lorem. Maecenas sed ipsum vel risus pretium maximus eu eget tellus. Duis varius, neque ut blandit blandit, ante eros bibendum urna, non consequat ligula ex quis libero. Ut quis ullamcorper urna. Etiam pulvinar dignissim consequat. Duis in dictum ligula. Donec nunc est, blandit facilisis vestibulum at, fringilla vitae nisl. Maecenas nec varius nisi. Aenean volutpat sapien maximus, posuere velit at, euismod sapien. Suspendisse tempor eleifend sapien at cursus.",
+			"tracks": [
+				{
+					"title": "Feel Good Inc.",
+					"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet quis nulla eget rutrum. Pellentesque leo augue, accumsan nec aliquet id, euismod et arcu. Vivamus a erat ac felis lacinia fringilla et eu mauris. Vivamus id turpis et lorem laoreet ornare non eu lorem. Maecenas sed ipsum vel risus pretium maximus eu eget tellus. Duis varius, neque ut blandit blandit, ante eros bibendum urna, non consequat ligula ex quis libero. Ut quis ullamcorper urna. Etiam pulvinar dignissim consequat. Duis in dictum ligula. Donec nunc est, blandit facilisis vestibulum at, fringilla vitae nisl. Maecenas nec varius nisi. Aenean volutpat sapien maximus, posuere velit at, euismod sapien. Suspendisse tempor eleifend sapien at cursus.",
+					"preview": true,
+					"file":"/audio/Feel Good Inc preview.mp3"
+				}
+			],
+			"art": "/images/feel_good_inc.png",
+			"short_desc": "Saxophone Quartet Cover of Feel Good Inc. by Gorillaz"
+		}
+	]
+}

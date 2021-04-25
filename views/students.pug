@@ -1,0 +1,32 @@
+html
+head
+	title shadowlerone
+	meta(charset='utf-8')
+	meta(name='viewport', content="width=device-width, initial-scale=1, shrink-to-fit=no")
+	link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css", integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z", crossorigin="anonymous")
+	script(src="https://code.jquery.com/jquery-3.5.1.slim.min.js", integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj", crossorigin="anonymous")
+	script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js", integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN", crossorigin="anonymous")
+	script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js", integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV", crossorigin="anonymous")
+	script(src="/javascripts/student.js")
+body
+	h1 What Class am I in?
+	div(class="container-fluid")
+		h3 Are you in:
+		div(class="form-check-inline")
+			label(class="form-check-label")
+			input(type="radio", name="student" id="R1", class="form-check-input")
+			span R1
+		div(class="form-check-inline")
+			label(class="form-check-label")
+			input(type="radio", name="student", id="R2",class="form-check-input")
+			span R2
+		div(class="form-group")
+				label First Name:
+				br
+				input(id="s")
+		div(class="form-group")
+			label Last Name:
+			br
+			input(id="student", title="Header", data-toggle="popover" data-placement="top", data-content="Content")
+		button(onclick="student()", class="btn btn-primary") Check
+		div(id="demo", class="collapse") murr

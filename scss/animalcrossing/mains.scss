@@ -1,0 +1,70 @@
+* {
+	// border: 1px solid red;
+	// color: initial;
+}
+html {
+	min-height: 100%;
+	background-color: #0d68a8;
+	background: rgb(118,30,207);
+	background: linear-gradient(130deg, rgba(118,30,207,1) 0%, rgba(13,104,168,1) 6%, rgba(51,135,195,1) 19%, rgba(8,121,203,1) 31%, rgba(3,148,168,1) 52%, rgba(57,104,255,1) 79%, rgba(14,151,250,1) 100%);
+	// background: white;
+}
+#animalcrossing {
+	// background-color: white;
+}
+.profile {
+	width: 100%;
+	& h1 {
+		font-size: 4rem;
+	}
+}
+
+.profile>* {
+	/* border: 1px solid black; */
+	font-size: 1.75rem;
+}
+.navbrand {
+	line-height: 2rem;
+}
+
+.active::after{
+}
+.posts {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 1.245rem;
+	& > h1 {
+		// font-size: 4rem;
+	}
+}
+.post {
+	&.compact {
+		max-height: 33vh;
+	}
+	&:not(.compact){
+		h1 {
+			// font-size: 4rem;
+		}
+	}
+	// width: 90%;
+	max-width: 90%;
+	overflow: hidden;
+	& > * {
+		font-size: 1.75rem;
+	}
+	&:not(:last-child){
+		margin-bottom: 1rem;
+	}
+	// background-color: rgba(0, 0, 0, 0.5);
+	padding: 1.245rem;
+	border: 2px solid white;
+	& > .row.info {
+		max-height: 30%;
+
+	}
+	// & * {font-size: 2rem;}
+}
+.row.info {
+	& img {
+		// height: 30%;
+	}
+}

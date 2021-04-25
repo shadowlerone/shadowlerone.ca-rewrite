@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	div(class="card-columns slideanim")
+		//- p #{a}
+		each album, index in albums
+			div(class="album-card card rounded")
+				img(class="card-img-top rounded", src=album.art, alt=album.title)
+				div(class="card-img-overlay")
+					div(class="card-h rounded")
+						h4(class="card-title") #{album.title}
+						p(class="card-text") #{album.short_desc}
+						a(href="/discography/" + index + "/", class="stretched-link")
+

@@ -1,0 +1,14 @@
+extends main
+
+block content
+	div(id="choices", class="card-deck")
+		div(class="card bg-primary pkmn")
+			a(id="a1", href="#", class="", onclick="submit('" + a['choice1'] + "','" + a['choice2'] + "')")
+				div(class="card-body text-center") 
+					h1(id="p1", class="card-text display-3")=a['choice1']
+		div(class="card bg-success pkmn")
+			a(id="a2",href="#", class="", onclick="submit('" + a['choice2'] + "','" + a['choice1'] + "')")
+				div(class="card-body text-center")
+					h1(id="p2", class="card-text display-3")=a['choice2']
+	a(type='button', class='btn btn-success btn-lg btn-block pkmn-2', href="/pokemon/results/") 
+		h1(class='display-2') Results!

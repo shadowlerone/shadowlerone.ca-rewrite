@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	div(class="row profile rounded mx-auto my-5 slideanim")
+		div(class="col-md-3 p-4")
+			img(src="images/pfp.jpg" class="rounded mx-auto mx-1 img-fluid")
+			//- span shadowlerone (They/Them)
+		div(class="col-md-9")
+			h1(class="")=text["bio"]['title']
+			p(class="")=text["bio"]['text']
+	div(class="row profile rounded mx-auto my-5 slideanim")
+		div(class="col-md-9")
+			h1(class="")=text['projects']['title']
+			p(class="")=text['projects']['text']
+		div(class="col-md-3 p-4")
+			img(src=text['projects']['img'] class="rounded mx-auto mx-1 img-fluid")
+			//- span shadowlerone (They/Them)

@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	.container-fluid.posts.rounded
+		h1 newsfeed
+		for p in posts
+			+post(p)

@@ -1,0 +1,28 @@
+extends layout
+
+block content
+	div(class="slideanim scls-wrapper card-columns")
+		each site in socials
+			a(href=site.url, class="lg-1")
+				div(class="slideanim border rounded scls card p-3 bg-grey") 
+					span(class=site.class + " btn align-middle")
+					span(class="sn") #{site.name}
+
+		//- div(class='col-md-10 card-columns')
+			each site in projects
+				if site.type=="card"
+					div(class="scls-card card rounded")
+						img(class="card-img-top rounded", src=site.img)
+						div(class="card-img-overlay")
+							div(class="card-h rounded")
+								h4(class="card-title") #{site.name}
+								a(href=site.url, class="stretched-link")
+				if site.type == "embed"
+					div(class="scls-card card rounded")
+						img(class="card-img-top rounded", src=site.img)
+						div(class="card-img-overlay")
+						div(class="card-img-overlay")
+							//- 	div(class="card-h rounded")
+								h4(class="card-title") #{site.name}
+							iframe(src=site.src, class="card-iframe")
+							

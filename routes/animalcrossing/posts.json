@@ -1,0 +1,39 @@
+[
+	{
+		"title":"Test Article",
+		"author":"shadow",
+		"content":"lorem",
+		"date": "2021-04-24T23:32:44.127Z",
+		"summary":"This is a tester article, if you see this, the webadmin messed up",
+		"image":"/images/animalcrossing/board meeting.png"
+	},
+	{
+		"title":"Test Article",
+		"author":"shadow",
+		"content":"lorem",
+		"date": "2021-05-24T23:32:44.127Z",
+		"summary":"This is a tester article, if you see this, the webadmin messed up"
+	},
+	{
+		"title":"Test Article",
+		"author":"shadow",
+		"content":"lorem",
+		"date": "2021-03-24T23:32:44.127Z",
+		"summary":"This is a tester article, if you see this, the webadmin messed up",
+		"image":"/images/animalcrossing/board meeting.png"
+	},
+	{
+		"title":"Test Article",
+		"author":"shadow",
+		"content":"lorem",
+		"date": "2021-02-24T23:32:44.127Z",
+		"summary":"This is a tester article, if you see this, the webadmin messed up"
+	},
+	{
+		"title":"Test Article",
+		"author":"shadow",
+		"content":"lorem",
+		"date": "2021-01-24T23:32:44.127Z",
+		"summary":"This is a tester article, if you see this, the webadmin messed up"
+	}
+]

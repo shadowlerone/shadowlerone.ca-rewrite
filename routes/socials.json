@@ -1,0 +1,44 @@
+{
+	"socials": [
+		{"name":"Discord", "url":"/r/discord", "class":"fab fa-discord"},
+		{"name": "Instagram", "url": "/r/instagram", "class": "fab fa-instagram"},
+		{"name": "Twitch", "url": "/r/twitch", "class": "fab fa-twitch"},
+		{"name": "Bandcamp", "url": "/r/bandcamp", "class": "fab fa-bandcamp"},
+		{"name": "Spotify", "url": "/r/spotify", "class": "fab fa-spotify"},
+		{"name": "Youtube", "url": "/r/youtube", "class": "fab fa-youtube"},
+		{"name": "Twitter", "url": "/r/twitter", "class": "fab fa-twitter"},
+		{"name": "Soundcloud", "url": "/r/soundcloud", "class": "fab fa-soundcloud"}
+	],
+	"projects": [
+		{
+			"name":"Latest Release: Grooves and Wobbly Air",
+			"url":"/discography/0/",
+			"img":"/images/grooves_and_wobbly_air.png",
+			"type":"card"
+		},
+		{
+			"name":"Feel Good Inc.",
+			"embed":"<iframe frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"src":"https://www.youtube-nocookie.com/embed/h5joCRxsyxc",
+			"img":"/images/feel_good_inc.png",
+			"type":"embed"
+		},
+		{
+			"name": "Spooky Scary Skeletons",
+			"embed":"<iframe frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"src":"https://www.youtube-nocookie.com/embed/u2YpbJD5kGQ",
+			"img":"/images/feel_good_inc.png",
+			"type":"embed"
+		}
+	],
+	"redirects": [
+		{"name":"Youtube", "url":"https://youtube.com/shadowlerone", "endpoints":["youtube", "yt"]},
+		{"name":"Twitch", "url":"https://twitch.tv/shadowlerone", "endpoints":["twitch", "ttv"]},
+		{"name":"Discord", "url":"https://discord.gg/DNqXMzZKka", "endpoints":["discord", "dc", "disc", "server"]},
+		{"name":"Instagram", "url":"https://instagram.com/shadowlerone", "endpoints":["ig", "insta", "instagram", "gram"]},
+		{"name":"Spotify", "url":"https://open.spotify.com/artist/34SXh6qzcp8zMaj2nRiJj8", "endpoints":["spot", "spotify"]},
+		{"name":"Bandcamp", "url":"https://shadowlerone.bandcamp.com/", "endpoints":["bandcamp", "bc"]},
+		{"name":"Soundcloud", "url":"https://soundcloud.com/shadowlerone/", "endpoints":["sc", "soundcloud"]},
+		{"name":"Twitter", "url":"https://twitter.com/shadowlerone", "endpoints":["tweet", "twitter"]}
+	]
+}

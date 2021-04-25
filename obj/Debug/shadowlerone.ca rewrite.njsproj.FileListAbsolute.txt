@@ -1,0 +1,3 @@
+C:\Users\shadowlerone\source\repos\shadowlerone.ca rewrite\obj\Debug\shadowlerone.ca rewrite.njsprojAssemblyReference.cache
+C:\Users\shadowlerone\source\repos\shadowlerone.ca rewrite\obj\Debug\shadowlerone.ca rewrite.njsproj.CoreCompileInputs.cache
+C:\Users\shadowlerone\source\repos\shadowlerone.ca rewrite\bin\Microsoft.NodejsTools.WebRole.dll
