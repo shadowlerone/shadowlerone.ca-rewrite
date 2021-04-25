@@ -1,5 +1,5 @@
 mixin p_post(p)
-	.container.post.rounded.compact
+	.container.post.rounded.compact.slideanim
 		.row
 			.col-sm-1.p-1
 				img.img-fluid.rounded(src=p.author_img)
@@ -8,18 +8,18 @@ mixin p_post(p)
 				p=p.summary
 
 mixin post(p)
-	.container.post.rounded
-		.row.info
-			.col-lg-1.p-1 
+	.container.post.rounded.slideanim
+		.row
+			.col-lg-2 
 				img.img-fluid.rounded(src=p.author_img)
-			.col-lg-11.p-1 
-				h1 #{p.title} - #{p.author}
+				h1.text-center #{p.author}
+			.col-lg-10
+				h1=p.title
 				h3=p.date
-		.row
-			p=p.summary
-		.row
-			img.img-fluid.rounded(src=p.image)
-			
+				p=p.summary
+				img.img-fluid.rounded(src=p.image)
+
+
 mixin v_post(p)
 	.container.post.rounded
 		.row.info
@@ -32,3 +32,9 @@ mixin v_post(p)
 			p=p.summary
 		.row
 			img.img-fluid.rounded(src=p.image)
+
+mixin villager(v)
+	.card.villager
+		img.card-img-top(src=v.image)
+		.card-body
+			h1.card-title.text-center=v.name

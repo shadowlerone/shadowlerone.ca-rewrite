@@ -1,13 +1,13 @@
 extends layout
 
 block content
-	.row.profile.rounded.mx-auto.my-3
+	.row.profile.rounded.mx-auto.my-3.slideanim
 		.col-sm-3.p-4
 			img.img-fluid.rounded(src=char.image)
 		.col-sm-9 
 			h1=char.name
 			p=char.desc
-	.container-fluid.posts.rounded
+	.container-fluid.posts.rounded.slideanim
 		h1 recent articles
 		for p in char.posts
 			+p_post(p)
