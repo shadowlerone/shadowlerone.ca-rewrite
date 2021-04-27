@@ -1,6 +1,8 @@
 extends layout
 
 block content
-	.row.mx-h-40vh
-		for char in characters
-			+villager(char)
+	.container-fluid
+		.row.mx-h-40vh.p-2
+			.card-deck.slideanim
+				for char in characters
+					+villager(char)

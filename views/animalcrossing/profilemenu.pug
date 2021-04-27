@@ -1,0 +1,33 @@
+extends layout
+
+block content
+	.container-fluid
+		form(action="/ac/submit-profile" method="post")
+			.form-group.row 
+				.col
+					label(for="name") Name:
+					input#name.form-control(type="text", placeholder="name", name="name")
+				.col
+					label(for="pronouns") Pronouns:
+					input#pronouns.form-control(type="text", placeholder="pronouns", name="pronouns")
+			.form-group.row 
+				.col
+					label(for="birthday") Birthday:
+					input#birth.form-control(type="date", placeholder="", name="birth")
+				.col
+					label(for="joined") Joined:
+					input#joined.form-control(type="date", placeholder="", name="joined")
+			.form-group.row 
+				.col
+					label(for="job") Job:
+					input#job.form-control(type="text", placeholder="", name="job")
+				.col
+					label(for="image") Image:
+					input#image.form-control(type="text", placeholder="", name="image")
+			.form-group.row
+				.col
+					label(for="description")
+					textarea#description.form-control(name="desc", rows="10")
+			.form-group.row 
+				.col
+					button.btn.btn-primary.form-control(type="submit") Submit

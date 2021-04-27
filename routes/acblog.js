@@ -45,5 +45,26 @@ router.get('/profiles', function (req, res, next) {
 	let characters = getJson('routes/animalcrossing/profiles.json');
 	res.render("animalcrossing/profiles", {characters : characters});
 });
+router.get('/add-profile', function(req, res, next) {
+	res.render("animalcrossing/profilemenu");
+})
+
+router.post('/submit-profile', function(req, res, next) {
+	var chars = getJson('routes/animalcrossing/profiles.json');
+	var char = {}
+	char.name = req.body.name
+	char.pronouns = req.body.pronouns
+	char.birth = req.body.birth
+	char.joined = req.body.joined
+	char.job = req.body.job
+	//TODO take care of image
+	char.desc = req.body.desc
+	chars[char.name] = char;
+	console.log(chars);
+	fs.writeFile("routes/animalcrossing/profiles.json", JSON.stringify(chars), function (err) {
+		if (err) throw err;
+	})
+	res.render("animalcrossing/debug", {char: req.body})
+});
 
 module.exports = router;
