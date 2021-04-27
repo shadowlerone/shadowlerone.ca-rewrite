@@ -1,1 +1,9 @@
 /node_modules
+/yarn-error.log
+**.cache
+**.njsproj*
+/shadowlerone.ca rewrite.njsproj.user
+shadowlerone.ca rewrite.njsproj.user
+shadowlerone.ca rewrite.njsproj.user
+.vs/shadowlerone.ca rewrite/v16/.suo
+*.suo

@@ -35,6 +35,17 @@ mixin v_post(p)
 
 mixin villager(v)
 	.card.villager
-		img.card-img-top(src=v.image)
-		.card-body
-			h1.card-title.text-center=v.name
+		img.card-img-top.image-fluid(src=v.image)
+		.card-img-overlay.villager-title
+			h1.card-title.text-center.rounded=v.name
+			a.stretched-link(href="/ac/profile/" + v.id)
+
+mixin profile(char)
+	.row.profile.rounded.mx-auto.my-3.slideanim
+		.col-sm-3.p-4
+			img.img-fluid.rounded(src=char.image)
+		.col-sm-9 
+			h1 #{char.name} (#{char.pronouns})
+			h2 occupation: #{char.job}
+			h3 Born #{char.birth} - Joined #{char.joined}
+			p=char.desc

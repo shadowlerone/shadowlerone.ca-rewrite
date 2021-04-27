@@ -1,12 +1,28 @@
 {
 	"shadow": {
-		"name":"shadow",
-		"desc":"lorem",
-		"image": "/images/animalcrossing/Shadow cropped.gif"
+		"name": "shadow",
+		"id": "shadow",
+		"pronouns": "they/them",
+		"birth": "2002-02-25",
+		"joined": "2020-04-20",
+		"job": "Ambassador",
+		"desc": "shadow is the town mayor. they host town meetings and organize the budget. They are also responsible for procuring goods for the island and taking care of island infrastructure. An musician and programmer by trade, they wrote the island theme and ensure that the communications systems remain operational. In addition to their domestic obligations, shadow also takes care of international affairs, traveling as an ambassador to Qirm, Maerieona, Bubblegum and Acdamia.",
+		"image":"/images/animalcrossing/Shadow cropped.gif"
 	},
 	"leyla": {
-		"name":"Leyla",
-		"desc":"lorem",
+		"name": "Leyla",
+		"id": "leyla",
+		"desc": "lorem",
+		"image": "/images/animalcrossing/Shadow cropped.gif"
+	},
+	"steicy": {
+		"name": "Steicy",
+		"id":"steicy",
+		"pronouns": "she/her",
+		"birth": "2004-02-29",
+		"joined": "2020-04-13",
+		"job": "Pilot",
+		"desc": "Steicy is the pilot and mechanic of the island. She takes the planes at the airport and assists shadow with infrastructure maintenance.",
 		"image": "/images/animalcrossing/Shadow cropped.gif"
 	}
 }
