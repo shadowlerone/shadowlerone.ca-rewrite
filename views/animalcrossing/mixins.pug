@@ -1,8 +1,12 @@
+mixin v-image(character)
+	img.img-fluid.rounded.villager-image(src=character.image, animsrc=character.animated_image, staticsrc=character.static_image)&attributes(attributes)
+
+
 mixin p_post(p)
 	.container.post.rounded.compact.slideanim
 		.row
 			.col-sm-1.p-1
-				img.img-fluid.rounded(src=p.author_img)
+				+v-image(p.author)
 			.col-sm-11
 				h1=p.title
 				p=p.summary
@@ -11,8 +15,8 @@ mixin post(p)
 	.container.post.rounded.slideanim
 		.row
 			.col-lg-2 
-				img.img-fluid.rounded(src=p.author_img)
-				h1.text-center #{p.author}
+				+v-image(p.author)
+				h1.text-center #{p.author.name}
 			.col-lg-10
 				h1=p.title
 				h3=p.date
@@ -24,9 +28,9 @@ mixin v_post(p)
 	.container.post.rounded
 		.row.info
 			.col-lg-1.p-1 
-				img.img-fluid.rounded(src=p.author_img)
+				+v-image(p.author)
 			.col-lg-11.p-1 
-				h1 #{p.title} - #{p.author}
+				h1 #{p.title} - #{p.author.name}
 				h3=p.date
 		.row
 			p=p.summary
@@ -34,8 +38,8 @@ mixin v_post(p)
 			img.img-fluid.rounded(src=p.image)
 
 mixin villager(v)
-	.card.villager
-		img.card-img-top.image-fluid(src=v.image)
+	.card.villager.slideanim
+		+v-image(v)(class="card-img-top")
 		.card-img-overlay.villager-title
 			h1.card-title.text-center.rounded=v.name
 			a.stretched-link(href="/ac/profile/" + v.id)
@@ -43,7 +47,7 @@ mixin villager(v)
 mixin profile(char)
 	.row.profile.rounded.mx-auto.my-3.slideanim
 		.col-sm-3.p-4
-			img.img-fluid.rounded(src=char.image)
+			+v-image(char)
 		.col-sm-9 
 			h1 #{char.name} (#{char.pronouns})
 			h2 occupation: #{char.job}

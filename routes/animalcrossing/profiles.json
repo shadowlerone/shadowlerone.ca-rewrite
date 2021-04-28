@@ -7,13 +7,21 @@
 		"joined": "2020-04-20",
 		"job": "Ambassador",
 		"desc": "shadow is the town mayor. they host town meetings and organize the budget. They are also responsible for procuring goods for the island and taking care of island infrastructure. An musician and programmer by trade, they wrote the island theme and ensure that the communications systems remain operational. In addition to their domestic obligations, shadow also takes care of international affairs, traveling as an ambassador to Qirm, Maerieona, Bubblegum and Acdamia.",
-		"image":"/images/animalcrossing/Shadow cropped.gif"
+		"image":"/images/animalcrossing/Shadow cropped.png",
+		"animated_image":"/images/animalcrossing/Shadow cropped.gif",
+		"static_image":"/images/animalcrossing/Shadow cropped.png"
 	},
 	"leyla": {
 		"name": "Leyla",
 		"id": "leyla",
+		"pronouns": "she/her",
+		"birth": "2002-06-23",
+		"joined": "2020-04-13",
+		"job": "Teacher",
 		"desc": "lorem",
-		"image": "/images/animalcrossing/Shadow cropped.gif"
+		"image": "/images/animalcrossing/leyla cropped.png",
+		"animated_image":"/images/animalcrossing/leyla cropped.gif",
+		"static_image":"/images/animalcrossing/leyla cropped.png"
 	},
 	"steicy": {
 		"name": "Steicy",
@@ -23,6 +31,32 @@
 		"joined": "2020-04-13",
 		"job": "Pilot",
 		"desc": "Steicy is the pilot and mechanic of the island. She takes the planes at the airport and assists shadow with infrastructure maintenance.",
-		"image": "/images/animalcrossing/Shadow cropped.gif"
+		"image": "/images/animalcrossing/Steicy cropped.png",
+		"animated_image":"/images/animalcrossing/Steicy cropped.gif",
+		"static_image":"/images/animalcrossing/Steicy cropped.png"
+	},
+	"ariel": {
+		"name": "Ariel",
+		"id":"ariel",
+		"pronouns": "they/them",
+		"birth": "2000-05-05",
+		"joined": "2020-04-13",
+		"job": "Hotel Manager",
+		"desc": "lorem",
+		"image": "/images/animalcrossing/Ariel cropped.png",
+		"animated_image":"/images/animalcrossing/Ariel cropped.gif",
+		"static_image":"/images/animalcrossing/Ariel cropped.png"
+	},
+	"aurora": {
+		"name": "Aurora",
+		"id":"aurora",
+		"pronouns": "she/they",
+		"birth": "2005-12-21",
+		"joined": "2020-04-13",
+		"job": "Cafe owner",
+		"desc": "lorem",
+		"image": "/images/animalcrossing/Aurora cropped.png",
+		"animated_image":"/images/animalcrossing/Aurora cropped.gif",
+		"static_image":"/images/animalcrossing/Aurora cropped.png"
 	}
 }

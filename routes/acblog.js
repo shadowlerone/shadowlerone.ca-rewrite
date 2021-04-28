@@ -33,7 +33,7 @@ router.get('/profile/:char', function (req, res, next) {
 	console.log(character)
 	let chardata = characters[character];
 	console.log(chardata)
-	chardata["posts"] = posts.filter(p => p.author == character).filter(p => new Date(p.date) < new Date()).slice().sort((a, b) => { i = new Date(a.date); j = new Date(b.date); j - i }).slice(0, 3).map(p => {if (p.content=="lorem"){p.content = lipsum}; p['author_img'] = chardata.image; return p});
+	chardata["posts"] = posts.filter(p => p.author == character).filter(p => new Date(p.date) < new Date()).slice().sort((a, b) => { i = new Date(a.date); j = new Date(b.date); j - i }).slice(0, 3).map(p => {if (p.content=="lorem"){p.content = lipsum}; p['author'] = chardata; return p});
 	if (chardata.desc == "lorem") {
 		chardata.desc =  lipsum;
 	}
