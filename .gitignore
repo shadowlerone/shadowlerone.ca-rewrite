@@ -7,3 +7,4 @@ shadowlerone.ca rewrite.njsproj.user
 .vs/shadowlerone.ca rewrite/v16/.suo
 *.suo
 *lock*
+/node_modules
